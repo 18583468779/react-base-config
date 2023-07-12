@@ -9,7 +9,7 @@ module.exports = {
           loader: "babel-loader",
           options: {
             //presets 预先设置，使用webpack调用loader进行打包
-            presets: [["@babel/preset-env"]],
+            presets: [["@babel/preset-env"], ["@babel/preset-react"]],
           },
         },
       },
