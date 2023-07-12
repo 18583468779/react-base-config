@@ -4,7 +4,7 @@ module.exports = {
   mode: "production",
   plugins: [
     new ESLintWebpackPlugin({
-      extensions: [".js", ".jsx"], //不加.jsx 就不会检查jsx文件
+      extensions: [".js", ".jsx"], //eslint不加.jsx 就不会检查jsx文件
     }),
   ],
   module: {
