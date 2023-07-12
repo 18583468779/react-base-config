@@ -10,7 +10,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/, //文件后缀js,ts
+        test: /\.[jt]sx?$/, //文件后缀js,ts
         exclude: /node_modules/, //排除node_modules
         use: {
           loader: "babel-loader",
@@ -19,6 +19,7 @@ module.exports = {
             presets: [
               ["@babel/preset-env"],
               ["@babel/preset-react", { runtime: "classic" }],
+              ["@babel/preset-typescript"],
             ],
           },
         },
