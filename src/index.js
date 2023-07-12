@@ -1,6 +1,6 @@
 import Component from "./jsx.demo.jsx";
-import a from "./a";
-import xieWen from "./ts-demo.ts";
+import a from "@/a";
+import xieWen from "@/ts-demo.ts";
 import { MyIndex } from "./MyIndex.tsx";
 const b = import("./b");
 
